@@ -1,0 +1,142 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #0d1117;
+}
+
+h1, h2, h3, h4, h5, p, td, th, label, dl, .form-control-file {
+    color: #c9d1d9;
+}
+
+.form-label {
+    color: black;
+}
+
+.margin-nav-5 {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.checkbox > .form-label {
+    color: #c9d1d9;
+}
+
+.form-floating {
+    margin: 5px;
+}
+
+#registerSubmit {
+    margin-top: 10px;
+}
+
+.remember {
+    margin: 5px;
+}
+
+.credentials {
+    margin: 5px;
+}
+
+.form-floating > label {
+    color: black;
+}
+
+.font-color-white {
+    color: white !important;
+}
+
+#delete {
+    margin-top: 5px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.bg-dark {
+    background-color: #161b22 !important;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(300px,100%),1fr));
+    column-gap: 10px;
+}
+
+.gallery-item {
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    .gallery-item img {
+        margin-top: 15px;
+        border-radius: 0.3rem;
+    }
+
+    .gallery-item > a > img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 0.3rem;
+    }
+
+    .gallery-item .buttons {
+        margin-bottom: 5px;
+    }
+
+.divheading {
+    border-radius: 0.3rem;
+}
+
+.heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prg {
+    background: #d9d9d9;
+    width: 400px;
+    display: none;
+}
+
+    .prg > div {
+        background: rgb(68, 24, 143);
+        color: white;
+        text-align: center;
+    }
+
+.prgWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: max-content;
+}
+
+    .prgWrap p {
+        margin: 0;
+        color: white;
+    }
